@@ -1,7 +1,11 @@
 package Dollar;
 
 public class Dollar {
-    public int amount = 10;
-    public Dollar(int amount){};
-   public void times(int multiplier){};
+    public int amount;
+    public Dollar(int amount){
+        this.amount = amount;
+    };
+   public void times(int multiplier){
+       amount *= multiplier;
+   };
 }
