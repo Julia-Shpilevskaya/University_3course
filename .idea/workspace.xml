@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e213af0-d3cb-42eb-b9f6-ad3d251db990" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Money/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Money/Expression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Money/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Money/Dollar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Money/Dollar.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Money/Franc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Money/Franc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Money/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Money/Money.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/Tests.java" afterDir="false" />
@@ -22,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -58,22 +61,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Tests.testDifferentClassEquality">
-    <configuration name="Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Multicurrency_money_Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Dollar_test" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Tests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Tests.testSimpleAddition">
     <configuration name="Tests.testCurrency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Multicurrency_money_Test" />
       <extension name="coverage">
@@ -122,7 +110,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.testFrancMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.testMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Multicurrency_money_Test" />
       <extension name="coverage">
         <pattern>
@@ -132,7 +120,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.Tests" />
-      <option name="METHOD_NAME" value="testFrancMultiplication" />
+      <option name="METHOD_NAME" value="testMultiplication" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.testSimpleAddition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Multicurrency_money_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Tests" />
+      <option name="METHOD_NAME" value="testSimpleAddition" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Tests.testDifferentClassEquality" />
-        <item itemvalue="JUnit.Tests.testCurrency" />
+        <item itemvalue="JUnit.Tests.testSimpleAddition" />
         <item itemvalue="JUnit.Tests.testEquality" />
-        <item itemvalue="JUnit.Tests.testFrancMultiplication" />
-        <item itemvalue="JUnit.Tests" />
+        <item itemvalue="JUnit.Tests.testDifferentClassEquality" />
+        <item itemvalue="JUnit.Tests.testMultiplication" />
+        <item itemvalue="JUnit.Tests.testCurrency" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726502092015</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="made 9-10 points">
+      <created>1726505201543</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726505201543</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -201,6 +212,7 @@
     <MESSAGE value="made the second point" />
     <MESSAGE value="made the third point" />
     <MESSAGE value="made 4-8 points" />
-    <option name="LAST_COMMIT_MESSAGE" value="made 4-8 points" />
+    <MESSAGE value="made 9-10 points" />
+    <option name="LAST_COMMIT_MESSAGE" value="made 9-10 points" />
   </component>
 </project>
