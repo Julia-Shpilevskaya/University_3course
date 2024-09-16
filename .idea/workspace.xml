@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e213af0-d3cb-42eb-b9f6-ad3d251db990" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Money/Franc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Money/Money.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dollar/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Money/Dollar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Dollar_test/Dollar_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Money/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Money/Dollar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Money/Franc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Money/Franc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Money/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Money/Money.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +58,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Tests.testEquality">
+  <component name="RunManager" selected="JUnit.Tests.testDifferentClassEquality">
     <configuration name="Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Multicurrency_money_Test" />
       <extension name="coverage">
@@ -73,6 +70,38 @@
       <option name="PACKAGE_NAME" value="Dollar_test" />
       <option name="MAIN_CLASS_NAME" value="Tests.Tests" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.testCurrency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Multicurrency_money_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Tests" />
+      <option name="METHOD_NAME" value="testCurrency" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.testDifferentClassEquality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Multicurrency_money_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Tests" />
+      <option name="METHOD_NAME" value="testDifferentClassEquality" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,28 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.testMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Multicurrency_money_Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Dollar_test" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Tests" />
-      <option name="METHOD_NAME" value="testMultiplication" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Tests.testDifferentClassEquality" />
+        <item itemvalue="JUnit.Tests.testCurrency" />
         <item itemvalue="JUnit.Tests.testEquality" />
         <item itemvalue="JUnit.Tests.testFrancMultiplication" />
         <item itemvalue="JUnit.Tests" />
-        <item itemvalue="JUnit.Tests.testMultiplication" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726499196979</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="made 4-8 points">
+      <created>1726502092015</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726502092015</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -179,6 +200,7 @@
     <MESSAGE value="made the first point" />
     <MESSAGE value="made the second point" />
     <MESSAGE value="made the third point" />
-    <option name="LAST_COMMIT_MESSAGE" value="made the third point" />
+    <MESSAGE value="made 4-8 points" />
+    <option name="LAST_COMMIT_MESSAGE" value="made 4-8 points" />
   </component>
 </project>
