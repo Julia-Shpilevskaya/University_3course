@@ -56,7 +56,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Dollar_test">
+  <component name="RunManager" selected="JUnit.Dollar_test.testEquality">
     <configuration name="Dollar_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Multicurrency_money_Test" />
       <extension name="coverage">
@@ -68,6 +68,22 @@
       <option name="PACKAGE_NAME" value="Dollar_test" />
       <option name="MAIN_CLASS_NAME" value="Dollar_test.Dollar_test" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dollar_test.testEquality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Multicurrency_money_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dollar_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Dollar_test" />
+      <option name="MAIN_CLASS_NAME" value="Dollar_test.Dollar_test" />
+      <option name="METHOD_NAME" value="testEquality" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -90,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Dollar_test.testEquality" />
         <item itemvalue="JUnit.Dollar_test" />
         <item itemvalue="JUnit.Dollar_test.testMultiplication" />
       </list>
