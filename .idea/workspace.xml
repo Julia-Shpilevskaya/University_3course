@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e213af0-d3cb-42eb-b9f6-ad3d251db990" name="Changes" comment="made the second point">
+    <list default="true" id="4e213af0-d3cb-42eb-b9f6-ad3d251db990" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Money/Franc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Money/Money.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dollar/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dollar/Dollar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Dollar_test/Dollar_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Dollar_test/Dollar_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dollar/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Money/Dollar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Dollar_test/Dollar_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,48 +61,64 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Dollar_test.testEquality">
-    <configuration name="Dollar_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Tests.testEquality">
+    <configuration name="Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Multicurrency_money_Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Dollar_test.*" />
+          <option name="PATTERN" value="Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Dollar_test" />
-      <option name="MAIN_CLASS_NAME" value="Dollar_test.Dollar_test" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Tests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dollar_test.testEquality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.testEquality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Multicurrency_money_Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Dollar_test.*" />
+          <option name="PATTERN" value="Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Dollar_test" />
-      <option name="MAIN_CLASS_NAME" value="Dollar_test.Dollar_test" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Tests" />
       <option name="METHOD_NAME" value="testEquality" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dollar_test.testMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.testFrancMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Multicurrency_money_Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Dollar_test.*" />
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Tests" />
+      <option name="METHOD_NAME" value="testFrancMultiplication" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.testMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Multicurrency_money_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Dollar_test" />
-      <option name="MAIN_CLASS_NAME" value="Dollar_test.Dollar_test" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Tests" />
       <option name="METHOD_NAME" value="testMultiplication" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -106,9 +127,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Dollar_test.testEquality" />
-        <item itemvalue="JUnit.Dollar_test" />
-        <item itemvalue="JUnit.Dollar_test.testMultiplication" />
+        <item itemvalue="JUnit.Tests.testEquality" />
+        <item itemvalue="JUnit.Tests.testFrancMultiplication" />
+        <item itemvalue="JUnit.Tests" />
+        <item itemvalue="JUnit.Tests.testMultiplication" />
       </list>
     </recent_temporary>
   </component>
@@ -135,13 +157,28 @@
       <option name="project" value="LOCAL" />
       <updated>1726154186447</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="made the second point">
+      <created>1726498912392</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726498912392</updated>
+    </task>
+    <task id="LOCAL-00004" summary="made the third point">
+      <created>1726499196979</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726499196979</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added 'Dollar','Dollar_test'" />
     <MESSAGE value="made the first point" />
     <MESSAGE value="made the second point" />
-    <option name="LAST_COMMIT_MESSAGE" value="made the second point" />
+    <MESSAGE value="made the third point" />
+    <option name="LAST_COMMIT_MESSAGE" value="made the third point" />
   </component>
 </project>
